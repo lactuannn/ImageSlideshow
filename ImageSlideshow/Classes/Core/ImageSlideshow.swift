@@ -55,6 +55,8 @@ public enum ImagePreload {
 @objcMembers
 open class ImageSlideshow: UIView {
 
+    public var isAbc: Bool = false
+
     /// Scroll View to wrap the slideshow
     public let scrollView = UIScrollView()
 
